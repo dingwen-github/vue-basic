@@ -6,7 +6,13 @@
 <!--      <IfAndShow/>-->
 <!--      <list-render/>-->
 <!--      <list-render-two/>-->
-      <other-instruction/>
+<!--      <other-instruction/>-->
+<!--      <demo/>-->
+<!--      <event-deal/>-->
+<!--      <demo-filter/>-->
+<!--      <transition-and-animate/>-->
+<!--      <transition-and-animate-two/>-->
+      <transition-and-animate-three/>
   </div>
 </template>
 
@@ -17,7 +23,13 @@
 // import IfAndShow from "./components/IfAndShow";
 // import ListRender from "./components/ListRender";
 // import ListRenderTwo from "./components/ListRenderTwo";
-import OtherInstruction from "./components/OtherInstruction";
+// import OtherInstruction from "./components/OtherInstruction";
+// import Demo from "./components/Demo"
+// import EventDeal from "./components/EventDeal";
+// import DemoFilter from "./components/DemoFilter";
+// import TransitionAndAnimate from "./components/TransitionAndAnimate";
+// import TransitionAndAnimateTwo from "./components/TransitionAndAnimateTwo";
+import TransitionAndAnimateThree from "./components/TransitionAndAnimateThree";
 export default {
   name: 'App',
   components: {
@@ -27,7 +39,13 @@ export default {
     //   IfAndShow
     //   ListRender
     //   ListRenderTwo
-      OtherInstruction
+    //   OtherInstruction
+    //   Demo
+    //   EventDeal
+    //   DemoFilter
+    //   TransitionAndAnimate
+    //   TransitionAndAnimateTwo
+      TransitionAndAnimateThree
   }
 }
 </script>
