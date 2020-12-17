@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
-
+//导入全局css
+import './assets/css/index.css'
 //是否启动生产消息
 Vue.config.productionTip = false
 

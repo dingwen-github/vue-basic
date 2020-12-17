@@ -1,0 +1,39 @@
+body {
+    background-color: #ffffff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    /*手势*/
+    cursor: pointer;
+    /*inset:设置为内阴影（如果不写这个值，默认为外阴影）
+        从原点开始，沿x轴正方向的长度（倘若为负值，为沿x轴负方向的长度）
+        从原点开始，沿y轴正方向的长度；（倘若为负值，为沿y轴负方向的长度）
+        阴影的模糊度，只允许为正值
+        阴影扩展半径
+        阴影颜色
+    */
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+.btn-warning {
+    color: #ffffff;
+    background-color: orangered;
+    border: none;
+}
+
+.btn-warning:hover {
+    color: #ffffff;
+    background-color: red;
+}
+
+.btn:focus {
+    outline: none;
+}

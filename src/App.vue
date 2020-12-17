@@ -12,7 +12,11 @@
 <!--      <demo-filter/>-->
 <!--      <transition-and-animate/>-->
 <!--      <transition-and-animate-two/>-->
-      <transition-and-animate-three/>
+<!--      <transition-and-animate-three/>-->
+<!--      <life-circle/>-->
+<!--      <father/>-->
+<!--      <parent/>-->
+      <todo-main/>
   </div>
 </template>
 
@@ -29,10 +33,15 @@
 // import DemoFilter from "./components/DemoFilter";
 // import TransitionAndAnimate from "./components/TransitionAndAnimate";
 // import TransitionAndAnimateTwo from "./components/TransitionAndAnimateTwo";
-import TransitionAndAnimateThree from "./components/TransitionAndAnimateThree";
+// import TransitionAndAnimateThree from "./components/TransitionAndAnimateThree";
+// import LifeCircle from "./components/LifeCircle";
+// import Father from "./components/props/Father";
+// import Parent from "./components/custom-events/Parent";
+import TodoMain from "./components/todo/TodoMain";
 export default {
   name: 'App',
   components: {
+      // Parent,
     // HelloWorld
     // ComputedAndWatch,
     //   ClassAndStyle
@@ -45,7 +54,10 @@ export default {
     //   DemoFilter
     //   TransitionAndAnimate
     //   TransitionAndAnimateTwo
-      TransitionAndAnimateThree
+    //   TransitionAndAnimateThree
+    //   LifeCircle
+    //   Father
+      TodoMain
   }
 }
 </script>
